@@ -1,0 +1,12 @@
+{
+  "name": "new-api",
+  "version": "1.0.0",
+  "description": "A simple Next.js API",
+  "dependencies": {
+    "@vercel/node": "^2.14.1",
+    "mysql": "^2.18.1"
+  },
+  "engines": {
+    "node": ">=12.x"
+  }
+}
