@@ -10,12 +10,4 @@ const db = mysql.createPool({
   connectionLimit: 100,
 });
 
-db.connect((err) => {
-  if (err) {
-    console.error("Erro ao conectar ao MySQL:", err);
-  } else {
-    console.log("Conexão bem-sucedida com o MySQL");
-  }
-});
-
 module.exports = db;
